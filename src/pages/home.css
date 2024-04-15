@@ -1,0 +1,39 @@
+ul,li{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-image: linear-gradient(-20deg, #e9defa 0%, #fbfcdb 100%);
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    min-height: 100vh;
+}
+
+
+.container {
+    background-color: white;
+    border-radius: 8px;
+    padding: 30px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    max-width: 800px;
+    width: 100%;
+}
+
+.textField {
+    flex-grow: 1;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ddd;
+    border-radius: 4px 0 0 4px;
+  }
+
+.addTaskSelect {
+    font-size: 16px;
+    border-left: none;
+}
